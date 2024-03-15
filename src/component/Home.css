@@ -1,0 +1,123 @@
+@font-face {
+  font-family: "Pretendard-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+    format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+  font-family: "Pretendard-Regular";
+}
+
+.homeContainer {
+  width: 100%;
+  height: 100vh;
+  background-color: #fcfcfc;
+
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  width: 100%;
+  height: 50px;
+  background-color: #fff;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 109px;
+  height: 42px;
+}
+
+.loginBtn {
+  width: 68px;
+  height: 10px;
+  /* font-family: "Pretendard-Regular"; */
+  font-size: 10px;
+}
+
+.logoSlider {
+  width: 100%;
+  height: 90px;
+  display: flex;
+  align-items: center;
+
+  /* overflow-x: scroll; */
+}
+
+.logoWrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+
+  overflow-x: scroll;
+}
+
+.serviceLogo {
+  width: 60px;
+  height: 60px;
+  margin-right: 20px;
+  filter: brightness(1);
+}
+
+.serviceLogo:last-child {
+  margin-right: 0;
+}
+
+.serviceLogo:active {
+  filter: brightness(0.5);
+}
+
+.bestContainer {
+  width: 100%;
+  height: 240px;
+  /* border: 1px solid red; */
+}
+
+.bestContainer p {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 33px;
+}
+
+.bestSliderWrapper {
+  width: 320px;
+  height: 180px;
+  /* border: 1px solid yellow; */
+  margin-left: 30px;
+  padding: 0;
+}
+
+.bestItem {
+  width: 300px;
+  height: 50px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+  /* border: 1px solid green; */
+}
+
+.awardContainer {
+  width: 100%;
+  height: 220px;
+  /* border: 1px solid red; */
+  /* margin-top: 45px; */
+  text-align: center;
+}
+
+.awardContainer p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.footer {
+  width: 100%;
+  height: 130px;
+  background-color: #d9d9d9;
+}
