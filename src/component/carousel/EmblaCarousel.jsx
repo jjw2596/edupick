@@ -17,7 +17,7 @@ import award5 from "../../assets/award5.png";
 const EmblaCarousel = (props) => {
   const { slides, options } = props;
   const [emblaRef, emblaApi] = useEmblaCarousel(options, [
-    AutoScroll({ playOnInit: true, speed: 1.5 }),
+    AutoScroll({ playOnInit: true, speed: 0.7 }),
   ]);
   const [isPlaying, setIsPlaying] = useState(false);
 
