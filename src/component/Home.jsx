@@ -1,13 +1,13 @@
 import React from "react";
 import "./Home.css";
-import ModalContainer from "./modal/ModalContainer";
 import EmblaCarousel from "./carousel/EmblaCarousel";
+import Header from "./header/Header";
+import { Link } from "react-router-dom";
 
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import logo from "../assets/header-logo.png";
 import milkt from "../assets/milkt.png";
 import elihigh from "../assets/elihigh.png";
 import smartall from "../assets/smartall.png";
@@ -41,11 +41,7 @@ function Home() {
     <>
       <div className="homeContainer">
         {/* 헤더 */}
-        <div className="header">
-          <ModalContainer />
-          <img src={logo} alt="logo" className="logo" />
-          <div className="loginBtn">Login/회원가입</div>
-        </div>
+        <Header />
 
         {/* 로고 슬라이더 */}
         <div className="logoSlider">
@@ -66,168 +62,176 @@ function Home() {
         {/* 베스트 리뷰 영역 */}
         <div className="bestContainer">
           <div>
-            <p>BEST REVIEW</p>
+            <Link to={"/best"}>
+              <p>BEST REVIEW</p>
+            </Link>
           </div>
-          <div className="bestSliderWrapper">
-            {/* <Slider {...settings}> */}
-            <div className="bestItem">
-              <div className="bestLeft">
-                <img src={milkt} alt="milkT" width="35px" height="35px" />
-              </div>
-              <div className="bestRight">
-                <div className="bestTop">
-                  <div>우리 아이가 재밌게... | rlaqls**** 2024.03.01</div>
-                  <div>좋아요 123</div>
+          <Link to={"/best"}>
+            <div className="bestSliderWrapper">
+              {/* <Slider {...settings}> */}
+              <div className="bestItem">
+                <div className="bestLeft">
+                  <img src={milkt} alt="milkT" width="35px" height="35px" />
                 </div>
-                <div className="bestBottom">
-                  집에서 하루종일 놀아주고 공부 봐주는 게 힘들어서 시작했는데
-                  아이가 혼자서 이것저것 눌러보면서 ...
+                <div className="bestRight">
+                  <div className="bestTop">
+                    <div>우리 아이가 재밌게... | rlaqls**** 2024.03.01</div>
+                    <div>좋아요 123</div>
+                  </div>
+                  <div className="bestBottom">
+                    집에서 하루종일 놀아주고 공부 봐주는 게 힘들어서 시작했는데
+                    아이가 혼자서 이것저것 눌러보면서 ...
+                  </div>
                 </div>
               </div>
+              <div className="bestItem">
+                <div className="bestLeft">
+                  <img src={milkt} alt="milkT" width="35px" height="35px" />
+                </div>
+                <div className="bestRight">
+                  <div className="bestTop">
+                    <div>우리 아이가 재밌게... | rlaqls**** 2024.03.01</div>
+                    <div>좋아요 123</div>
+                  </div>
+                  <div className="bestBottom">
+                    집에서 하루종일 놀아주고 공부 봐주는 게 힘들어서 시작했는데
+                    아이가 혼자서 이것저것 눌러보면서 ...
+                  </div>
+                </div>
+              </div>
+              <div className="bestItem">
+                <div className="bestLeft">
+                  <img src={homelearn} alt="milkT" width="35px" height="35px" />
+                </div>
+                <div className="bestRight">
+                  <div className="bestTop">
+                    <div>우리 아이가 재밌게... | rlaqls**** 2024.03.01</div>
+                    <div>좋아요 123</div>
+                  </div>
+                  <div className="bestBottom">
+                    집에서 하루종일 놀아주고 공부 봐주는 게 힘들어서 시작했는데
+                    아이가 혼자서 이것저것 눌러보면서 ...
+                  </div>
+                </div>
+              </div>
+              <div className="bestItem">
+                <div className="bestLeft">
+                  <img src={smartall} alt="milkT" width="35px" height="35px" />
+                </div>
+                <div className="bestRight">
+                  <div className="bestTop">
+                    <div>우리 아이가 재밌게... | rlaqls**** 2024.03.01</div>
+                    <div>좋아요 123</div>
+                  </div>
+                  <div className="bestBottom">
+                    집에서 하루종일 놀아주고 공부 봐주는 게 힘들어서 시작했는데
+                    아이가 혼자서 이것저것 눌러보면서 ...
+                  </div>
+                </div>
+              </div>
+              <div className="bestItem">
+                <div className="bestLeft">
+                  <img src={milkt} alt="milkT" width="35px" height="35px" />
+                </div>
+                <div className="bestRight">
+                  <div className="bestTop">
+                    <div>우리 아이가 재밌게... | rlaqls**** 2024.03.01</div>
+                    <div>좋아요 123</div>
+                  </div>
+                  <div className="bestBottom">
+                    집에서 하루종일 놀아주고 공부 봐주는 게 힘들어서 시작했는데
+                    아이가 혼자서 이것저것 눌러보면서 ...
+                  </div>
+                </div>
+              </div>
+              <div className="bestItem">
+                <div className="bestLeft">
+                  <img src={elihigh} alt="milkT" width="35px" height="35px" />
+                </div>
+                <div className="bestRight">
+                  <div className="bestTop">
+                    <div>우리 아이가 재밌게... | rlaqls**** 2024.03.01</div>
+                    <div>좋아요 123</div>
+                  </div>
+                  <div className="bestBottom">
+                    집에서 하루종일 놀아주고 공부 봐주는 게 힘들어서 시작했는데
+                    아이가 혼자서 이것저것 눌러보면서 ...
+                  </div>
+                </div>
+              </div>
+              <div className="bestItem">
+                <div className="bestLeft">
+                  <img src={elihigh} alt="milkT" width="35px" height="35px" />
+                </div>
+                <div className="bestRight">
+                  <div className="bestTop">
+                    <div>우리 아이가 재밌게... | rlaqls**** 2024.03.01</div>
+                    <div>좋아요 123</div>
+                  </div>
+                  <div className="bestBottom">
+                    집에서 하루종일 놀아주고 공부 봐주는 게 힘들어서 시작했는데
+                    아이가 혼자서 이것저것 눌러보면서 ...
+                  </div>
+                </div>
+              </div>
+              <div className="bestItem">
+                <div className="bestLeft">
+                  <img src={onlyone} alt="milkT" width="35px" height="35px" />
+                </div>
+                <div className="bestRight">
+                  <div className="bestTop">
+                    <div>우리 아이가 재밌게... | rlaqls**** 2024.03.01</div>
+                    <div>좋아요 123</div>
+                  </div>
+                  <div className="bestBottom">
+                    집에서 하루종일 놀아주고 공부 봐주는 게 힘들어서 시작했는데
+                    아이가 혼자서 이것저것 눌러보면서 ...
+                  </div>
+                </div>
+              </div>
+              <div className="bestItem">
+                <div className="bestLeft">
+                  <img src={milkt} alt="milkT" width="35px" height="35px" />
+                </div>
+                <div className="bestRight">
+                  <div className="bestTop">
+                    <div>우리 아이가 재밌게... | rlaqls**** 2024.03.01</div>
+                    <div>좋아요 123</div>
+                  </div>
+                  <div className="bestBottom">
+                    집에서 하루종일 놀아주고 공부 봐주는 게 힘들어서 시작했는데
+                    아이가 혼자서 이것저것 눌러보면서 ...
+                  </div>
+                </div>
+              </div>
+              <div className="bestItem">
+                <div className="bestLeft">
+                  <img src={homelearn} alt="milkT" width="35px" height="35px" />
+                </div>
+                <div className="bestRight">
+                  <div className="bestTop">
+                    <div>우리 아이가 재밌게... | rlaqls**** 2024.03.01</div>
+                    <div>좋아요 123</div>
+                  </div>
+                  <div className="bestBottom">
+                    집에서 하루종일 놀아주고 공부 봐주는 게 힘들어서 시작했는데
+                    아이가 혼자서 이것저것 눌러보면서 ...
+                  </div>
+                </div>
+              </div>
+              {/* </Slider> */}
             </div>
-            <div className="bestItem">
-              <div className="bestLeft">
-                <img src={milkt} alt="milkT" width="35px" height="35px" />
-              </div>
-              <div className="bestRight">
-                <div className="bestTop">
-                  <div>우리 아이가 재밌게... | rlaqls**** 2024.03.01</div>
-                  <div>좋아요 123</div>
-                </div>
-                <div className="bestBottom">
-                  집에서 하루종일 놀아주고 공부 봐주는 게 힘들어서 시작했는데
-                  아이가 혼자서 이것저것 눌러보면서 ...
-                </div>
-              </div>
-            </div>
-            <div className="bestItem">
-              <div className="bestLeft">
-                <img src={homelearn} alt="milkT" width="35px" height="35px" />
-              </div>
-              <div className="bestRight">
-                <div className="bestTop">
-                  <div>우리 아이가 재밌게... | rlaqls**** 2024.03.01</div>
-                  <div>좋아요 123</div>
-                </div>
-                <div className="bestBottom">
-                  집에서 하루종일 놀아주고 공부 봐주는 게 힘들어서 시작했는데
-                  아이가 혼자서 이것저것 눌러보면서 ...
-                </div>
-              </div>
-            </div>
-            <div className="bestItem">
-              <div className="bestLeft">
-                <img src={smartall} alt="milkT" width="35px" height="35px" />
-              </div>
-              <div className="bestRight">
-                <div className="bestTop">
-                  <div>우리 아이가 재밌게... | rlaqls**** 2024.03.01</div>
-                  <div>좋아요 123</div>
-                </div>
-                <div className="bestBottom">
-                  집에서 하루종일 놀아주고 공부 봐주는 게 힘들어서 시작했는데
-                  아이가 혼자서 이것저것 눌러보면서 ...
-                </div>
-              </div>
-            </div>
-            <div className="bestItem">
-              <div className="bestLeft">
-                <img src={milkt} alt="milkT" width="35px" height="35px" />
-              </div>
-              <div className="bestRight">
-                <div className="bestTop">
-                  <div>우리 아이가 재밌게... | rlaqls**** 2024.03.01</div>
-                  <div>좋아요 123</div>
-                </div>
-                <div className="bestBottom">
-                  집에서 하루종일 놀아주고 공부 봐주는 게 힘들어서 시작했는데
-                  아이가 혼자서 이것저것 눌러보면서 ...
-                </div>
-              </div>
-            </div>
-            <div className="bestItem">
-              <div className="bestLeft">
-                <img src={elihigh} alt="milkT" width="35px" height="35px" />
-              </div>
-              <div className="bestRight">
-                <div className="bestTop">
-                  <div>우리 아이가 재밌게... | rlaqls**** 2024.03.01</div>
-                  <div>좋아요 123</div>
-                </div>
-                <div className="bestBottom">
-                  집에서 하루종일 놀아주고 공부 봐주는 게 힘들어서 시작했는데
-                  아이가 혼자서 이것저것 눌러보면서 ...
-                </div>
-              </div>
-            </div>
-            <div className="bestItem">
-              <div className="bestLeft">
-                <img src={elihigh} alt="milkT" width="35px" height="35px" />
-              </div>
-              <div className="bestRight">
-                <div className="bestTop">
-                  <div>우리 아이가 재밌게... | rlaqls**** 2024.03.01</div>
-                  <div>좋아요 123</div>
-                </div>
-                <div className="bestBottom">
-                  집에서 하루종일 놀아주고 공부 봐주는 게 힘들어서 시작했는데
-                  아이가 혼자서 이것저것 눌러보면서 ...
-                </div>
-              </div>
-            </div>
-            <div className="bestItem">
-              <div className="bestLeft">
-                <img src={onlyone} alt="milkT" width="35px" height="35px" />
-              </div>
-              <div className="bestRight">
-                <div className="bestTop">
-                  <div>우리 아이가 재밌게... | rlaqls**** 2024.03.01</div>
-                  <div>좋아요 123</div>
-                </div>
-                <div className="bestBottom">
-                  집에서 하루종일 놀아주고 공부 봐주는 게 힘들어서 시작했는데
-                  아이가 혼자서 이것저것 눌러보면서 ...
-                </div>
-              </div>
-            </div>
-            <div className="bestItem">
-              <div className="bestLeft">
-                <img src={milkt} alt="milkT" width="35px" height="35px" />
-              </div>
-              <div className="bestRight">
-                <div className="bestTop">
-                  <div>우리 아이가 재밌게... | rlaqls**** 2024.03.01</div>
-                  <div>좋아요 123</div>
-                </div>
-                <div className="bestBottom">
-                  집에서 하루종일 놀아주고 공부 봐주는 게 힘들어서 시작했는데
-                  아이가 혼자서 이것저것 눌러보면서 ...
-                </div>
-              </div>
-            </div>
-            <div className="bestItem">
-              <div className="bestLeft">
-                <img src={homelearn} alt="milkT" width="35px" height="35px" />
-              </div>
-              <div className="bestRight">
-                <div className="bestTop">
-                  <div>우리 아이가 재밌게... | rlaqls**** 2024.03.01</div>
-                  <div>좋아요 123</div>
-                </div>
-                <div className="bestBottom">
-                  집에서 하루종일 놀아주고 공부 봐주는 게 힘들어서 시작했는데
-                  아이가 혼자서 이것저것 눌러보면서 ...
-                </div>
-              </div>
-            </div>
-            {/* </Slider> */}
-          </div>
+          </Link>
         </div>
 
         {/* PICK's award 영역 */}
         <div className="awardContainer">
-          <p>PICK's award</p>
-          <EmblaCarousel slides={SLIDES} options={OPTIONS} />
+          <Link to={"/award"}>
+            <p>PICK's award</p>
+          </Link>
+          <Link to={"/award"}>
+            <EmblaCarousel slides={SLIDES} options={OPTIONS} />
+          </Link>
         </div>
 
         <div className="ads">Ads Banner</div>

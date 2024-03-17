@@ -88,11 +88,15 @@ const Modal = ({ modalClose }) => {
         {/* 아코디언 네비게이션 메뉴 */}
         <div className="accordionMenu">
           <AccordionSummary aria-controls="panel1-content" id="panel1-header">
-            <HomeIcon />
-            <div>HOME</div>
+            <Link to={"/"} onClick={onCloseModal}>
+              <HomeIcon />
+              HOME
+            </Link>
           </AccordionSummary>
           <AccordionSummary aria-controls="panel1-content" id="panel1-header">
-            <div>에듀PICK의 분석</div>
+            <Link path={"/"} onClick={onCloseModal}>
+              에듀PICK의 분석
+            </Link>
           </AccordionSummary>
           <Accordion>
             <AccordionSummary
@@ -103,7 +107,9 @@ const Modal = ({ modalClose }) => {
               <div>REVIEW</div>
             </AccordionSummary>
             <AccordionDetails>
-              <li>Best Review</li>
+              <Link to={"/best"} onClick={onCloseModal}>
+                <li>Best Review</li>
+              </Link>
               <li>밀크T 초등</li>
               <li>엘리하이</li>
               <li>아이스크림 홈런</li>
@@ -112,7 +118,9 @@ const Modal = ({ modalClose }) => {
             </AccordionDetails>
           </Accordion>
           <AccordionSummary aria-controls="panel1-content" id="panel1-header">
-            <div>공지사항</div>
+            <Link path={"/"} onClick={onCloseModal}>
+              공지사항
+            </Link>
           </AccordionSummary>
         </div>
 

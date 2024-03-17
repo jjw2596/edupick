@@ -51,29 +51,54 @@ const EmblaCarousel = (props) => {
             </div>
           ))} */}
           <div className="embla__slide">
-            <div className="embla__slide__number">
-              <img src={award1} alt="award" width="100%" height="100%" />
-            </div>
+            <img src={award1} alt="award" width="100%" height="100%" />
+            {/* <div className="embla__slide__number">
+            </div> */}
           </div>
           <div className="embla__slide">
-            <div className="embla__slide__number">
-              <img src={award2} alt="award" width="100%" height="100%" />
-            </div>
+            <img src={award2} alt="award" width="100%" height="100%" />
+            {/* <div className="embla__slide__number">
+            </div> */}
           </div>
           <div className="embla__slide">
-            <div className="embla__slide__number">
-              <img src={award3} alt="award" width="100%" height="100%" />
-            </div>
+            <img src={award3} alt="award" width="100%" height="100%" />
+            {/* <div className="embla__slide__number">
+            </div> */}
           </div>
           <div className="embla__slide">
-            <div className="embla__slide__number">
-              <img src={award4} alt="award" width="100%" height="100%" />
-            </div>
+            <img src={award4} alt="award" width="100%" height="100%" />
+            {/* <div className="embla__slide__number">
+            </div> */}
           </div>
           <div className="embla__slide">
-            <div className="embla__slide__number">
-              <img src={award5} alt="award" width="100%" height="100%" />
-            </div>
+            <img src={award5} alt="award" width="100%" height="100%" />
+            {/* <div className="embla__slide__number">
+            </div> */}
+          </div>
+          <div className="embla__slide">
+            <img src={award1} alt="award" width="100%" height="100%" />
+            {/* <div className="embla__slide__number">
+            </div> */}
+          </div>
+          <div className="embla__slide">
+            <img src={award2} alt="award" width="100%" height="100%" />
+            {/* <div className="embla__slide__number">
+            </div> */}
+          </div>
+          <div className="embla__slide">
+            <img src={award3} alt="award" width="100%" height="100%" />
+            {/* <div className="embla__slide__number">
+            </div> */}
+          </div>
+          <div className="embla__slide">
+            <img src={award4} alt="award" width="100%" height="100%" />
+            {/* <div className="embla__slide__number">
+            </div> */}
+          </div>
+          <div className="embla__slide">
+            <img src={award5} alt="award" width="100%" height="100%" />
+            {/* <div className="embla__slide__number">
+            </div> */}
           </div>
         </div>
       </div>
