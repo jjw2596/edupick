@@ -46,12 +46,24 @@ function Home() {
         {/* 로고 슬라이더 */}
         <div className="logoSlider">
           <div className="logoWrapper">
-            <img src={milkt} alt="milkt" className="serviceLogo" />
-            <img src={smartall} alt="smartall" className="serviceLogo" />
-            <img src={elihigh} alt="elihigh" className="serviceLogo" />
-            <img src={onlyone} alt="only1" className="serviceLogo" />
-            <img src={homelearn} alt="homelearn" className="serviceLogo" />
-            <img src={kumon} alt="kumon" className="serviceLogo" />
+            <Link to={"/milkt"} className="mgr-15">
+              <img src={milkt} alt="milkt" className="serviceLogo" />
+            </Link>
+            <Link to={"/smartall"} className="mgr-15">
+              <img src={smartall} alt="smartall" className="serviceLogo" />
+            </Link>
+            <Link to={"/elihigh"} className="mgr-15">
+              <img src={elihigh} alt="elihigh" className="serviceLogo" />
+            </Link>
+            <Link to={"/onlyone"} className="mgr-15">
+              <img src={onlyone} alt="only1" className="serviceLogo" />
+            </Link>
+            <Link to={"/homelearn"} className="mgr-15">
+              <img src={homelearn} alt="homelearn" className="serviceLogo" />
+            </Link>
+            <Link to={"/"}>
+              <img src={kumon} alt="kumon" className="serviceLogo" />
+            </Link>
           </div>
         </div>
 

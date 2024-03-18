@@ -1,12 +1,7 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
 import "./BestReview.css";
 import Header from "../header/Header";
-import Review from "./Review";
-import Review2 from "./Review2";
-import Review3 from "./Review3";
-import Review4 from "./Review4";
-import Review5 from "./Review5";
+import CommonReview from "./CommonReview";
 
 import Pagination from "@mui/material/Pagination";
 import Stack from "@mui/material/Stack";
@@ -20,18 +15,9 @@ import best from "../../assets/best.png";
 import searchbtn from "../../assets/searchbtn.png";
 import reviewPhoto from "../../assets/reviewPhoto.png";
 import reviewPhotoPlus from "../../assets/reviewPhotoPlus.png";
-import aiAnalysis from "../../assets/aiAnalysis.png";
-import reviewPhoto2 from "../../assets/reviewPhoto2.png";
-import thumb from "../../assets/thumb.png";
-import scrap from "../../assets/scrap.png";
-import send from "../../assets/send.png";
+import { Link } from "react-router-dom";
 
-function BestReview() {
-  // const [isClose, setIsClose] = useState(true);
-
-  // const showFullContext = () => {
-  //   setIsClose(!isClose);
-  // };
+function OnlyoneReview() {
   return (
     <>
       <Header />
@@ -39,7 +25,7 @@ function BestReview() {
       <div className="logoSlider">
         <div className="logoWrapper">
           <Link to={"/best"} className="mgr-15">
-            <img src={best} alt="best" className="serviceLogo selectedLogo" />
+            <img src={best} alt="best" className="serviceLogo unselectLogo" />
           </Link>
           <Link to={"/milkt"} className="mgr-15">
             <img src={milkt} alt="milkt" className="serviceLogo unselectLogo" />
@@ -62,7 +48,7 @@ function BestReview() {
             <img
               src={onlyone}
               alt="only1"
-              className="serviceLogo unselectLogo"
+              className="serviceLogo selectedLogo"
             />
           </Link>
           <Link to={"/homelearn"}>
@@ -75,7 +61,7 @@ function BestReview() {
         </div>
       </div>
 
-      <div className="boardTitle">Best Review</div>
+      <div className="boardTitle">온리원</div>
 
       <div>
         <div className="searchContainer">
@@ -145,32 +131,37 @@ function BestReview() {
         </div>
 
         {/* 게시글 */}
-        <Review />
-        <Review2 />
-        <Review3 />
-        <Review4 />
-        <Review5 />
-        <Review2 />
-        <Review4 />
-        <Review />
-        <Review />
-        <Review2 />
-        <Review5 />
-        <Review5 />
-        <Review4 />
-        <Review />
-        <Review3 />
-        <Review5 />
-        <Review2 />
-        <Review4 />
-        <Review3 />
-        <Review2 />
+        <CommonReview />
+        <CommonReview />
+        <CommonReview />
+        <CommonReview />
+        <CommonReview />
+        <CommonReview />
+        <CommonReview />
+        <CommonReview />
+        <CommonReview />
+        <CommonReview />
+        <CommonReview />
+        <CommonReview />
+        <CommonReview />
+        <CommonReview />
+        <CommonReview />
+        <CommonReview />
+        <CommonReview />
+        <CommonReview />
+        <CommonReview />
+        <CommonReview />
       </div>
 
       <div className="paginationBox">
         <div>
           <Stack spacing={2}>
-            <Pagination count={5} showFirstButton showLastButton size="small" />
+            <Pagination
+              count={10}
+              showFirstButton
+              showLastButton
+              size="small"
+            />
             {/* <Pagination count={10} hidePrevButton hideNextButton /> */}
           </Stack>
         </div>
@@ -179,4 +170,4 @@ function BestReview() {
   );
 }
 
-export default BestReview;
+export default OnlyoneReview;
