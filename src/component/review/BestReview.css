@@ -96,6 +96,44 @@ body {
   left: 10%;
 }
 
+.periodContainer {
+  width: 100%;
+  /* height: 40px; */
+  height: auto;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.periodWrapper {
+  width: 90%;
+  height: auto;
+  /* border: 1px solid yellow; */
+  font-size: 11px;
+}
+.periodBtnContainer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.periodBtn {
+  width: 60px;
+  height: 24px;
+  border: 1px solid #d9d9d9;
+  border-radius: 5px;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 11px;
+}
+.selectedBtn {
+  background-color: #ddc9f7;
+}
+
 .photoReviewContainer {
   width: 100%;
   height: 110px;
@@ -103,7 +141,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 40px;
+  margin-top: 30px;
 }
 .reviewTitleContainer {
   width: 90%;
@@ -113,7 +151,36 @@ body {
 .reviewTitle {
   font-size: 18px;
   font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
+
+.writeBtn {
+  width: 60px;
+  height: 24px;
+  background-color: #301e9c;
+  border-radius: 5px;
+
+  color: #fff;
+  font-size: 11px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sortSelect {
+  width: 85px;
+  height: 25px;
+  border-radius: 5px;
+  /* border: 1px solid yellow; */
+}
+.sortSelect select {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+
 .pointTypo {
   color: #803ed4;
 }

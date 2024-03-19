@@ -114,8 +114,10 @@ function BestReview() {
       <div className="photoReviewContainer">
         <div className="reviewTitleContainer">
           <div className="reviewTitle">
-            <span>포토리뷰</span>
-            <span className="pointTypo"> 20개</span>
+            <div>
+              <span>포토리뷰</span>
+              <span className="pointTypo"> 47개</span>
+            </div>
           </div>
         </div>
         <div className="photoContainer">
@@ -139,8 +141,10 @@ function BestReview() {
         {/* 베스트 리뷰 txt */}
         <div className="reviewTitleContainer">
           <div className="reviewTitle">
-            <span>베스트 리뷰</span>
-            <span className="pointTypo"> 100개</span>
+            <div>
+              <span>베스트 리뷰</span>
+              <span className="pointTypo"> 100개</span>
+            </div>
           </div>
         </div>
 

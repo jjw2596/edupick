@@ -8,6 +8,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
+import logo from "../assets/header-logo.png";
 import milkt from "../assets/milkt.png";
 import elihigh from "../assets/elihigh.png";
 import smartall from "../assets/smartall.png";
@@ -15,6 +16,9 @@ import onlyone from "../assets/onlyone.png";
 import homelearn from "../assets/homelearn.png";
 import kumon from "../assets/kumon.png";
 import banner from "../assets/eduPICK's analysis banner.png";
+import adbanner from "../assets/adbanner.png";
+import smallKakao from "../assets/smallKakao.png";
+import smallinsta from "../assets/smallInsta.png";
 
 const OPTIONS = {
   loop: true,
@@ -246,8 +250,39 @@ function Home() {
           </Link>
         </div>
 
-        <div className="ads">Ads Banner</div>
-        <div className="footer">footer</div>
+        <div className="ads">
+          <img src={adbanner} alt="" width="100%" />
+        </div>
+
+        <div className="footer">
+          <div className="logo">
+            <img src={logo} alt="" width="100%" height="100%" />
+          </div>
+          <div className="slogun">
+            <span>Your pick, '에듀PICK'</span>
+          </div>
+          <div className="footerNav">
+            <br />
+            <span>ⓒ 2024. 에듀PICK all rights reserved | </span>
+            <span>
+              <b>개인정보처리방침 |</b>
+            </span>
+            <span>
+              <b>이용약관 |</b>
+            </span>
+            <span>회사소개</span>
+          </div>
+          <div className="snsContainer">
+            <div>
+              <img src={smallKakao} alt="" width="100%" height="100%" />
+              <span>고객센터</span>
+            </div>
+            <div>
+              <img src={smallinsta} alt="" width="100%" height="100%" />
+              <span>instagram</span>
+            </div>
+          </div>
+        </div>
       </div>
     </>
   );

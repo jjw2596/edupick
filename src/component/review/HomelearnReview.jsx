@@ -61,7 +61,7 @@ function HomelearnReview() {
         </div>
       </div>
 
-      <div className="boardTitle">홈런</div>
+      <div className="boardTitle">아이스크림 홈런</div>
 
       <div>
         <div className="searchContainer">
@@ -96,12 +96,31 @@ function HomelearnReview() {
         </div>
       </div>
 
+      {/* 이용기간 필터 */}
+      <div className="periodContainer">
+        <div className="periodWrapper">
+          <span>이용기간</span>
+          <div className="periodBtnContainer">
+            <div className="periodBtn selectedBtn">전체</div>
+            <div className="periodBtn">무료체험</div>
+            <div className="periodBtn">3개월 미만</div>
+            <div className="periodBtn">6개월 미만</div>
+            <div className="periodBtn">6개월 이상</div>
+          </div>
+        </div>
+      </div>
+
       {/* 포토리뷰 영역 */}
       <div className="photoReviewContainer">
         <div className="reviewTitleContainer">
           <div className="reviewTitle">
-            <span>포토리뷰</span>
-            <span className="pointTypo"> 20개</span>
+            <div>
+              <span>포토리뷰</span>
+              <span className="pointTypo"> 9개</span>
+            </div>
+            <Link to={"/writeH"}>
+              <div className="writeBtn">리뷰작성</div>
+            </Link>
           </div>
         </div>
         <div className="photoContainer">
@@ -125,8 +144,21 @@ function HomelearnReview() {
         {/* 베스트 리뷰 txt */}
         <div className="reviewTitleContainer">
           <div className="reviewTitle">
-            <span>베스트 리뷰</span>
-            <span className="pointTypo"> 100개</span>
+            <div>
+              <span>전체 리뷰</span>
+              <span className="pointTypo"> 885개</span>
+            </div>
+            <div className="sortSelect">
+              <select name="" id="">
+                <option value="" selected>
+                  최신순
+                </option>
+                <option value="">조회순</option>
+                <option value="">추천순</option>
+                <option value="">긍정순</option>
+                <option value="">부정순</option>
+              </select>
+            </div>
           </div>
         </div>
 

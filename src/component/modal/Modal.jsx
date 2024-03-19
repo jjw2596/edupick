@@ -110,11 +110,21 @@ const Modal = ({ modalClose }) => {
               <Link to={"/best"} onClick={onCloseModal}>
                 <li>Best Review</li>
               </Link>
-              <li>밀크T 초등</li>
-              <li>엘리하이</li>
-              <li>아이스크림 홈런</li>
-              <li>온리원</li>
-              <li>스마트올</li>
+              <Link to={"/milkt"}>
+                <li>밀크T 초등</li>
+              </Link>
+              <Link to={"/elihigh"}>
+                <li>엘리하이</li>
+              </Link>
+              <Link to={"/homelearn"}>
+                <li>아이스크림 홈런</li>
+              </Link>
+              <Link to={"/onlyone"}>
+                <li>온리원</li>
+              </Link>
+              <Link to={"/smartall"}>
+                <li>스마트올</li>
+              </Link>
             </AccordionDetails>
           </Accordion>
           <AccordionSummary aria-controls="panel1-content" id="panel1-header">

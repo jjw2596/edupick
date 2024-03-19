@@ -9,6 +9,12 @@ import Elihigh from "./component/review/ElihighReview";
 import Onlyone from "./component/review/OnlyoneReview";
 import Homelearn from "./component/review/HomelearnReview";
 
+import Write from "./component/review/ReviewWrite";
+import WriteE from "./component/review/ReviewWriteE";
+import WriteS from "./component/review/ReviewWriteS";
+import WriteH from "./component/review/ReviewWriteH";
+import WriteO from "./component/review/ReviewWriteO";
+
 function App() {
   return (
     <Router>
@@ -21,6 +27,11 @@ function App() {
         <Route path="/elihigh" element={<Elihigh />} />
         <Route path="/onlyone" element={<Onlyone />} />
         <Route path="/homelearn" element={<Homelearn />} />
+        <Route path="/write" element={<Write />} />
+        <Route path="/writeE" element={<WriteE />} />
+        <Route path="/writeS" element={<WriteS />} />
+        <Route path="/writeH" element={<WriteH />} />
+        <Route path="/writeO" element={<WriteO />} />
       </Routes>
     </Router>
   );

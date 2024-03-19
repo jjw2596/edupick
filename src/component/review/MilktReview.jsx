@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./BestReview.css";
 import Header from "../header/Header";
 import CommonReview from "./CommonReview";
+import { Link } from "react-router-dom";
 
 import Pagination from "@mui/material/Pagination";
 import Stack from "@mui/material/Stack";
@@ -15,9 +16,13 @@ import best from "../../assets/best.png";
 import searchbtn from "../../assets/searchbtn.png";
 import reviewPhoto from "../../assets/reviewPhoto.png";
 import reviewPhotoPlus from "../../assets/reviewPhotoPlus.png";
-import { Link } from "react-router-dom";
 
 function MilktReview() {
+  const [isClick, setIsClick] = useState(false);
+
+  const handlePeriodBtn = () => {
+    setIsClick(!isClick);
+  };
   return (
     <>
       <Header />
@@ -97,13 +102,30 @@ function MilktReview() {
       </div>
 
       {/* 이용기간 필터 */}
+      <div className="periodContainer">
+        <div className="periodWrapper">
+          <span>이용기간</span>
+          <div className="periodBtnContainer">
+            <div className="periodBtn selectedBtn">전체</div>
+            <div className="periodBtn">무료체험</div>
+            <div className="periodBtn">3개월 미만</div>
+            <div className="periodBtn">6개월 미만</div>
+            <div className="periodBtn">6개월 이상</div>
+          </div>
+        </div>
+      </div>
 
       {/* 포토리뷰 영역 */}
       <div className="photoReviewContainer">
         <div className="reviewTitleContainer">
           <div className="reviewTitle">
-            <span>포토리뷰</span>
-            <span className="pointTypo"> 20개</span>
+            <div>
+              <span>포토리뷰</span>
+              <span className="pointTypo"> 16개</span>
+            </div>
+            <Link to={"/write"}>
+              <div className="writeBtn">리뷰작성</div>
+            </Link>
           </div>
         </div>
         <div className="photoContainer">
@@ -127,8 +149,21 @@ function MilktReview() {
         {/* 베스트 리뷰 txt */}
         <div className="reviewTitleContainer">
           <div className="reviewTitle">
-            <span>베스트 리뷰</span>
-            <span className="pointTypo"> 100개</span>
+            <div>
+              <span>전체 리뷰</span>
+              <span className="pointTypo"> 1034개</span>
+            </div>
+            <div className="sortSelect">
+              <select name="" id="">
+                <option value="" selected>
+                  최신순
+                </option>
+                <option value="">조회순</option>
+                <option value="">추천순</option>
+                <option value="">긍정순</option>
+                <option value="">부정순</option>
+              </select>
+            </div>
           </div>
         </div>
 
@@ -164,7 +199,6 @@ function MilktReview() {
               showLastButton
               size="small"
             />
-            {/* <Pagination count={10} hidePrevButton hideNextButton /> */}
           </Stack>
         </div>
       </div>
