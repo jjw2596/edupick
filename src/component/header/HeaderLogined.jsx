@@ -5,7 +5,7 @@ import ModalContainer from "../modal/ModalContainer";
 import logo from "../../assets/header-logo.png";
 import bell from "../../assets/bell.png";
 
-function Header({ isLogin }) {
+function HeaderLogined({ isLogin }) {
   return (
     <>
       <div className="header">
@@ -15,26 +15,19 @@ function Header({ isLogin }) {
             <img src={logo} alt="logo" className="logo" />
           </Link>
         </div>
-
-        {isLogin === true ? (
-          <Link to={"/login"}>
-            <div className="loginBtn">Login/회원가입</div>
-          </Link>
-        ) : (
+        <Link to={"/login"}>
           <div className="loginBtn">
             <div>
               <img src={bell} alt="" />
             </div>
             <div>
-              <Link to={"/mypage"}>
-                <h2>MY</h2>
-              </Link>
+              <h2>MY</h2>
             </div>
           </div>
-        )}
+        </Link>
       </div>
     </>
   );
 }
 
-export default Header;
+export default HeaderLogined;

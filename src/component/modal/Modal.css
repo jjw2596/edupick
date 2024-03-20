@@ -43,6 +43,9 @@ body {
   margin-left: 15px;
   font-size: 18px;
 }
+.welcome p {
+  text-decoration: underline;
+}
 
 .recent {
   width: 250px;

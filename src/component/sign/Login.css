@@ -1,0 +1,139 @@
+.loginTop {
+  width: 100%;
+  height: 295px;
+  border-top: 1px solid #bab8b8;
+  border-bottom: 1px solid #bab8b8;
+}
+
+.loginTitle {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loginImgContainer {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  justify-content: center;
+}
+
+.slogunContainer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+
+  font-size: 20px;
+  font-weight: bold;
+
+  margin-top: 24px;
+}
+
+.loginBottom {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.loginInputContainer {
+  width: 80%;
+  height: auto;
+  /* border: 1px solid red; */
+  margin-top: 20px;
+}
+.loginInputWrapper {
+  width: 100%;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid yellow; */
+  margin-bottom: 10px;
+}
+.loginInputWrapper div {
+  display: flex;
+  align-items: center;
+}
+.loginInput {
+  width: 200px;
+  height: 30px;
+  border-radius: 5px;
+  border: 0.5px solid #d9d9d9;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+}
+.loginInput input {
+  border: none;
+  background-color: none;
+  width: 95%;
+  height: 90%;
+}
+
+.loginSubmit {
+  width: 100%;
+  height: 40px;
+  color: #fff;
+  background-color: #301e9c;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+}
+.loginSubmit:active {
+  filter: brightness(0.5);
+}
+
+.findSignupContainer {
+  width: 80%;
+  height: auto;
+  font-size: 11px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: 8px;
+}
+
+.snsLoginContainer {
+  width: 80%;
+  height: auto;
+
+  margin-top: 15px;
+  /* border: 1px solid red; */
+}
+.snsWrapper {
+  width: 100%;
+  height: 35px;
+  border: 1px solid #bab8b8;
+  border-radius: 5px;
+  display: flex;
+  background-color: #fff;
+  margin-bottom: 5px;
+}
+.snsWrapper:active {
+  filter: brightness(0.5);
+}
+.snsLeft {
+  width: 12%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid #bab8b8;
+}
+.snsRight {
+  width: 88%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}

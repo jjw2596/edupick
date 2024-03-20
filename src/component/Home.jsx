@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
+import { useLocation } from "react-router-dom"; // 추가된 부분
 import "./Home.css";
 import EmblaCarousel from "./carousel/EmblaCarousel";
 import Header from "./header/Header";
+import HeaderLogined from "./header/HeaderLogined";
 import { Link } from "react-router-dom";
 
 import Slider from "react-slick";
@@ -41,11 +43,21 @@ function Home() {
     // draggable: true,
   };
 
+  const location = useLocation();
+  const login = location.state?.login;
+
+  const [isLogin, setIsLogin] = useState(login === false ? false : true);
+
   return (
     <>
       <div className="homeContainer">
         {/* 헤더 */}
-        <Header />
+        {/* {isLogin === false ? (
+          <Header isLogin={isLogin} />
+        ) : (
+          <HeaderLogined isLogin={isLogin} />
+        )} */}
+        <Header isLogin={isLogin} />
 
         {/* 로고 슬라이더 */}
         <div className="logoSlider">

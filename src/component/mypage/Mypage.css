@@ -1,0 +1,223 @@
+.mypageTabContainer {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mypageTabWrapper {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 1px solid red; */
+}
+.mypageTabWrapper div {
+  width: 80px;
+  height: auto;
+  font-size: 14px;
+  font-weight: bold;
+  /* border: 1px solid yellow; */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 5px;
+}
+.selectedTab {
+  border-bottom: 3px solid #301e9c;
+}
+
+.myInfoContainer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+.myInfoWrapper {
+  width: 90%;
+  height: auto;
+  border-top: 1px solid #d9d9d9;
+  border-bottom: 1px solid #d9d9d9;
+  padding: 20px 0px;
+}
+.myInfoWrapper div {
+  display: flex;
+  height: auto;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.infoLabel {
+  width: 90px;
+  height: 15px;
+  /* font-size: 14px; */
+  font-weight: bold;
+}
+
+.infoContent {
+  width: 70%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid yellow; */
+}
+
+.phone {
+  font-size: 10px;
+  text-decoration: underline;
+  /* margin-left: 20px; */
+}
+
+.childContainer {
+  display: flex;
+  flex-direction: column;
+}
+.childInfoTitle {
+  /* border: 1px solid yellow; */
+  font-weight: bold;
+}
+
+.childAddContainer {
+  width: 100%;
+  display: flex;
+  justify-content: right;
+}
+.childAddBtn {
+  width: 60px;
+  height: 20px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+
+  border-radius: 5px;
+  background-color: #301e9c;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.childItem {
+  width: 200px;
+  height: auto;
+}
+.childItem div:first-child {
+  color: #301e9c;
+  font-weight: bold;
+}
+
+.marketingContainer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+.marketingWrapper {
+  width: 80%;
+}
+.marketingWrapper > div:first-child {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+
+  font-weight: bold;
+}
+.marketingWrapper div {
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.agreeBtn {
+  width: 50px;
+  height: 22px;
+  background-color: #301e9c;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 12px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+.disagreeBtn {
+  width: 50px;
+  height: 22px;
+  background-color: #d6d6d6;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.marketingContext {
+  width: 100%;
+  height: 100px;
+  background-color: #d9d9d9;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.scrapWrapper {
+  width: 90%;
+  height: auto;
+  border-top: 1px solid #d9d9d9;
+  border-bottom: 1px solid #d9d9d9;
+  padding: 20px 0px;
+  display: flex;
+}
+.scrapWrapper > div:first-child {
+  width: 23%;
+  height: 80px;
+  margin-right: 2%;
+}
+.scrapWrapper > div:last-child {
+  width: 75%;
+  height: auto;
+  /* border: 1px solid red; */
+  font-size: 13px;
+}
+
+.idNDate {
+  font-size: 10px;
+  margin-bottom: 3px;
+}
+
+.more {
+  font-size: 11px;
+  display: flex;
+  justify-content: right;
+}
+.writtenBottom {
+  font-size: 11px;
+  display: flex;
+  justify-content: right;
+}
+.writtenBottom > div {
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.myClose {
+  width: 95%;
+  height: auto;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+
+.writtenContainer {
+  width: 100%;
+  height: auto;
+}

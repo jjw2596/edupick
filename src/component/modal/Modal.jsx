@@ -17,7 +17,7 @@ import smartall from "../../assets/smartall.png";
 import onlyone from "../../assets/onlyone.png";
 import homelearn from "../../assets/homelearn.png";
 
-const Modal = ({ modalClose }) => {
+const Modal = ({ modalClose, isLogin }) => {
   const onCloseModal = (e) => {
     console.log("e.target: ", e.target);
     console.log("e.tarcurrentTargetget: ", e.currentTarget);
@@ -34,7 +34,15 @@ const Modal = ({ modalClose }) => {
           onClick={modalClose}
         />
         <div className="welcome">
-          <p>OOO님 환영합니다.</p>
+          {isLogin === true ? (
+            <Link to={"/login"}>
+              <p>로그인/회원가입</p>
+            </Link>
+          ) : (
+            <Link to={"/mypage"}>
+              <p>OOO님 환영합니다.</p>
+            </Link>
+          )}
         </div>
 
         <div className="recent">
@@ -133,10 +141,15 @@ const Modal = ({ modalClose }) => {
             </Link>
           </AccordionSummary>
         </div>
-
-        <div className="logOutContainer">
-          <div className="logOutBtn">로그아웃 </div>
-        </div>
+        {isLogin === true ? (
+          ""
+        ) : (
+          <div className="logOutContainer">
+            <Link to={"/login"}>
+              <div className="logOutBtn">로그아웃 </div>
+            </Link>
+          </div>
+        )}
       </div>
     </div>
   );

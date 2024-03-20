@@ -15,6 +15,9 @@ import WriteS from "./component/review/ReviewWriteS";
 import WriteH from "./component/review/ReviewWriteH";
 import WriteO from "./component/review/ReviewWriteO";
 
+import Login from "./component/sign/Login";
+import Mypage from "./component/mypage/Mypage";
+
 function App() {
   return (
     <Router>
@@ -32,6 +35,8 @@ function App() {
         <Route path="/writeS" element={<WriteS />} />
         <Route path="/writeH" element={<WriteH />} />
         <Route path="/writeO" element={<WriteO />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/mypage" element={<Mypage />} />
       </Routes>
     </Router>
   );

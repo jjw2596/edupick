@@ -20,11 +20,6 @@ import best from "../../assets/best.png";
 import searchbtn from "../../assets/searchbtn.png";
 import reviewPhoto from "../../assets/reviewPhoto.png";
 import reviewPhotoPlus from "../../assets/reviewPhotoPlus.png";
-import aiAnalysis from "../../assets/aiAnalysis.png";
-import reviewPhoto2 from "../../assets/reviewPhoto2.png";
-import thumb from "../../assets/thumb.png";
-import scrap from "../../assets/scrap.png";
-import send from "../../assets/send.png";
 
 function BestReview() {
   // const [isClose, setIsClose] = useState(true);
