@@ -11,6 +11,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 import logo from "../assets/header-logo.png";
+import best from "../assets/best.png";
 import milkt from "../assets/milkt.png";
 import elihigh from "../assets/elihigh.png";
 import smartall from "../assets/smartall.png";
@@ -62,6 +63,9 @@ function Home() {
         {/* 로고 슬라이더 */}
         <div className="logoSlider">
           <div className="logoWrapper">
+            <Link to={"/best"}>
+              <img src={best} alt="best" className="serviceLogo" />
+            </Link>
             <Link to={"/milkt"} className="mgr-15">
               <img src={milkt} alt="milkt" className="serviceLogo" />
             </Link>
@@ -76,9 +80,6 @@ function Home() {
             </Link>
             <Link to={"/homelearn"} className="mgr-15">
               <img src={homelearn} alt="homelearn" className="serviceLogo" />
-            </Link>
-            <Link to={"/"}>
-              <img src={kumon} alt="kumon" className="serviceLogo" />
             </Link>
           </div>
         </div>
