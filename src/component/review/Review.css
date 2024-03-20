@@ -140,7 +140,7 @@
 }
 
 .ellipsisBtn {
-  width: 65px;
+  width: 70px;
   height: 22px;
   display: flex;
   justify-content: right;
@@ -148,7 +148,7 @@
   /* border: 1px solid green; */
   /* font-size: 10px; */
   font-weight: bold;
-  font-size: 11px;
+  font-size: 10px;
 }
 
 .commentContainer {
