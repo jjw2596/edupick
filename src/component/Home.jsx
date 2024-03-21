@@ -63,7 +63,7 @@ function Home() {
         {/* 로고 슬라이더 */}
         <div className="logoSlider">
           <div className="logoWrapper">
-            <Link to={"/best"}>
+            <Link to={"/best"} className="mgr-15">
               <img src={best} alt="best" className="serviceLogo" />
             </Link>
             <Link to={"/milkt"} className="mgr-15">
@@ -78,7 +78,7 @@ function Home() {
             <Link to={"/onlyone"} className="mgr-15">
               <img src={onlyone} alt="only1" className="serviceLogo" />
             </Link>
-            <Link to={"/homelearn"} className="mgr-15">
+            <Link to={"/homelearn"}>
               <img src={homelearn} alt="homelearn" className="serviceLogo" />
             </Link>
           </div>
