@@ -119,12 +119,12 @@ function Home() {
                 </div>
                 <div className="bestRight">
                   <div className="bestTop">
-                    <div>우리 아이가 재밌게... | rlaqls**** 2024.03.01</div>
-                    <div>좋아요 123</div>
+                    <div>초등 2학년 학습... | qtda**** 2024.03.02</div>
+                    <div>좋아요 120</div>
                   </div>
                   <div className="bestBottom">
-                    집에서 하루종일 놀아주고 공부 봐주는 게 힘들어서 시작했는데
-                    아이가 혼자서 이것저것 눌러보면서 ...
+                    뭔가 아이의 학습 상태를 실시간으로 살펴볼 수 있으니, 마음이
+                    한결 놓이더라고요. 그리고 선생님들이 주는...
                   </div>
                 </div>
               </div>
@@ -134,12 +134,12 @@ function Home() {
                 </div>
                 <div className="bestRight">
                   <div className="bestTop">
-                    <div>우리 아이가 재밌게... | rlaqls**** 2024.03.01</div>
-                    <div>좋아요 123</div>
+                    <div>스스로 공부하는 습관... | alstjr**** 2024.03.01</div>
+                    <div>좋아요 113</div>
                   </div>
                   <div className="bestBottom">
-                    집에서 하루종일 놀아주고 공부 봐주는 게 힘들어서 시작했는데
-                    아이가 혼자서 이것저것 눌러보면서 ...
+                    아이가 스스로 학습 계획을 세우고, 그에 따라 공부하는 모습도
+                    보게 됐어요. 이런 자기 주도적...
                   </div>
                 </div>
               </div>
@@ -149,12 +149,12 @@ function Home() {
                 </div>
                 <div className="bestRight">
                   <div className="bestTop">
-                    <div>우리 아이가 재밌게... | rlaqls**** 2024.03.01</div>
-                    <div>좋아요 123</div>
+                    <div>스마트올 2달 사용... | whddnjs**** 2024.03.05</div>
+                    <div>좋아요 98</div>
                   </div>
                   <div className="bestBottom">
-                    집에서 하루종일 놀아주고 공부 봐주는 게 힘들어서 시작했는데
-                    아이가 혼자서 이것저것 눌러보면서 ...
+                    쓰기 시작한 지 벌써 두 달이 됐네요. 짧다면 짧고, 길다면 긴
+                    시간인데, 아이도 저도 많은 걸 느꼈어요...
                   </div>
                 </div>
               </div>
@@ -164,12 +164,12 @@ function Home() {
                 </div>
                 <div className="bestRight">
                   <div className="bestTop">
-                    <div>우리 아이가 재밌게... | rlaqls**** 2024.03.01</div>
-                    <div>좋아요 123</div>
+                    <div>밀크T 장점 뽑아보기... | rlaqls**** 2024.03.01</div>
+                    <div>좋아요 96</div>
                   </div>
                   <div className="bestBottom">
-                    집에서 하루종일 놀아주고 공부 봐주는 게 힘들어서 시작했는데
-                    아이가 혼자서 이것저것 눌러보면서 ...
+                    피드백을 받을 수 있어서 학습의 진도나 이해도를 실시간으로
+                    파악할 수 있었던 점도 큰 장점...
                   </div>
                 </div>
               </div>
@@ -179,12 +179,12 @@ function Home() {
                 </div>
                 <div className="bestRight">
                   <div className="bestTop">
-                    <div>우리 아이가 재밌게... | rlaqls**** 2024.03.01</div>
-                    <div>좋아요 123</div>
+                    <div>초등 1학년 이제는... | asdgr**** 2024.03.01</div>
+                    <div>좋아요 95</div>
                   </div>
                   <div className="bestBottom">
-                    집에서 하루종일 놀아주고 공부 봐주는 게 힘들어서 시작했는데
-                    아이가 혼자서 이것저것 눌러보면서 ...
+                    아이만의 특성을 잘 파악해서, 개선할 수 있는 방법을
+                    제시해주시는 것도 좋았고, 아이가 스스로 학습...
                   </div>
                 </div>
               </div>
@@ -194,12 +194,14 @@ function Home() {
                 </div>
                 <div className="bestRight">
                   <div className="bestTop">
-                    <div>우리 아이가 재밌게... | rlaqls**** 2024.03.01</div>
-                    <div>좋아요 123</div>
+                    <div>
+                      학습 현황 파악하기 용이... | rlaqls**** 2024.03.01
+                    </div>
+                    <div>좋아요 94</div>
                   </div>
                   <div className="bestBottom">
-                    집에서 하루종일 놀아주고 공부 봐주는 게 힘들어서 시작했는데
-                    아이가 혼자서 이것저것 눌러보면서 ...
+                    오늘은 어떤 학습을 했는지 궁금할 때가 많잖아요. 덕분에 그런
+                    걸 바로바로 확인할...
                   </div>
                 </div>
               </div>
@@ -209,8 +211,8 @@ function Home() {
                 </div>
                 <div className="bestRight">
                   <div className="bestTop">
-                    <div>우리 아이가 재밌게... | rlaqls**** 2024.03.01</div>
-                    <div>좋아요 123</div>
+                    <div>우리 아이가 재밌게... | rlaqls**** 2024.03.03</div>
+                    <div>좋아요 93</div>
                   </div>
                   <div className="bestBottom">
                     집에서 하루종일 놀아주고 공부 봐주는 게 힘들어서 시작했는데
@@ -224,12 +226,12 @@ function Home() {
                 </div>
                 <div className="bestRight">
                   <div className="bestTop">
-                    <div>우리 아이가 재밌게... | rlaqls**** 2024.03.01</div>
-                    <div>좋아요 123</div>
+                    <div>밀크T 직접 사용 후기... | rlaqls**** 2024.03.01</div>
+                    <div>좋아요 92</div>
                   </div>
                   <div className="bestBottom">
-                    집에서 하루종일 놀아주고 공부 봐주는 게 힘들어서 시작했는데
-                    아이가 혼자서 이것저것 눌러보면서 ...
+                    아이가 자신만의 속도로 학습할 수 있도록 배려해주는 점도
+                    마음에 들어요. 사용하면서 느낀 건데...
                   </div>
                 </div>
               </div>
@@ -240,7 +242,7 @@ function Home() {
                 <div className="bestRight">
                   <div className="bestTop">
                     <div>우리 아이가 재밌게... | rlaqls**** 2024.03.01</div>
-                    <div>좋아요 123</div>
+                    <div>좋아요 90</div>
                   </div>
                   <div className="bestBottom">
                     집에서 하루종일 놀아주고 공부 봐주는 게 힘들어서 시작했는데

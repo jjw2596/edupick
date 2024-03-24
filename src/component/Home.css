@@ -56,7 +56,8 @@
 
 .bestContainer {
   width: 100vw;
-  height: 240px;
+  /* height: 240px; */
+  height: auto;
   /* border: 1px solid red; */
   display: flex;
   flex-direction: column;
@@ -72,7 +73,7 @@
 
 .bestSliderWrapper {
   width: 320px;
-  height: 180px;
+  height: 240px;
   /* border: 1px solid yellow; */
   padding: 0;
 

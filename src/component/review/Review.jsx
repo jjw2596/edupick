@@ -51,7 +51,10 @@ function Review() {
         </div>
 
         <div className="reviewContent">
-          <p className={isClose === true ? "close" : ""}>
+          <p
+            className={isClose === true ? "close" : ""}
+            onClick={showFullContext}
+          >
             쓰기 시작한 지 벌써 두 달이 됐네요. 짧다면 짧고, 길다면 긴 시간인데,
             이 기간 동안 아이도 저도 많은 걸 느꼈어요. 제일 좋았던 건 아이가
             뭔가 배우면서도 재미를 느낀다는 거였죠. 수업이 지루하지 않게

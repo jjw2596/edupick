@@ -2,6 +2,10 @@ import React, { useState } from "react";
 import "./BestReview.css";
 import Header from "../header/Header";
 import CommonReview from "./CommonReview";
+import CommonReview2 from "./CommonReview2";
+import CommonReview3 from "./CommonReview3";
+import CommonReview4 from "./CommonReview4";
+import CommonReview5 from "./CommonReview5";
 import { Link } from "react-router-dom";
 
 import Pagination from "@mui/material/Pagination";
@@ -169,24 +173,24 @@ function MilktReview() {
 
         {/* 게시글 */}
         <CommonReview />
+        <CommonReview2 />
+        <CommonReview4 />
+        <CommonReview5 />
+        <CommonReview3 />
+        <CommonReview2 />
         <CommonReview />
+        <CommonReview3 />
         <CommonReview />
+        <CommonReview5 />
+        <CommonReview4 />
         <CommonReview />
+        <CommonReview3 />
         <CommonReview />
-        <CommonReview />
-        <CommonReview />
-        <CommonReview />
-        <CommonReview />
-        <CommonReview />
-        <CommonReview />
-        <CommonReview />
-        <CommonReview />
-        <CommonReview />
-        <CommonReview />
-        <CommonReview />
-        <CommonReview />
-        <CommonReview />
-        <CommonReview />
+        <CommonReview2 />
+        <CommonReview5 />
+        <CommonReview3 />
+        <CommonReview4 />
+        <CommonReview5 />
         <CommonReview />
       </div>
 

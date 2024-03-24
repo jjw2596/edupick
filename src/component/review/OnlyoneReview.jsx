@@ -2,6 +2,10 @@ import React, { useState } from "react";
 import "./BestReview.css";
 import Header from "../header/Header";
 import CommonReview from "./CommonReview";
+import CommonReview2 from "./CommonReview2";
+import CommonReview3 from "./CommonReview3";
+import CommonReview4 from "./CommonReview4";
+import CommonReview5 from "./CommonReview5";
 
 import Pagination from "@mui/material/Pagination";
 import Stack from "@mui/material/Stack";
@@ -163,26 +167,26 @@ function OnlyoneReview() {
         </div>
 
         {/* 게시글 */}
+        <CommonReview3 />
+        <CommonReview5 />
         <CommonReview />
+        <CommonReview4 />
+        <CommonReview2 />
+        <CommonReview5 />
         <CommonReview />
+        <CommonReview4 />
+        <CommonReview3 />
+        <CommonReview2 />
         <CommonReview />
+        <CommonReview5 />
+        <CommonReview3 />
+        <CommonReview2 />
+        <CommonReview4 />
         <CommonReview />
-        <CommonReview />
-        <CommonReview />
-        <CommonReview />
-        <CommonReview />
-        <CommonReview />
-        <CommonReview />
-        <CommonReview />
-        <CommonReview />
-        <CommonReview />
-        <CommonReview />
-        <CommonReview />
-        <CommonReview />
-        <CommonReview />
-        <CommonReview />
-        <CommonReview />
-        <CommonReview />
+        <CommonReview3 />
+        <CommonReview2 />
+        <CommonReview4 />
+        <CommonReview5 />
       </div>
 
       <div className="paginationBox">
